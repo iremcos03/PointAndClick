@@ -3,6 +3,13 @@ body{
     color: #fff;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#MainTitle{
+    grid-column-start: 2;
+    text-align: center;
+
 }
 
 #GameWindow{
