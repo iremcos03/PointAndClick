@@ -1,1 +1,1 @@
-document.getElementById("Main").appendChild(document.TEXT_NODE("hello mother"));
+document.getElementById("Main").innerText = "Point And Click Adventure";
