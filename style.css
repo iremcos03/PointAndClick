@@ -15,13 +15,13 @@ body{
 }
 
 #GameWindow{
-    position: relative;
+    
     width: 800px;
     height: 608px;
     grid-column-start: 2;
     grid-row-start: 2;
     background-color: purple;
-    
+    position: relative;
 }
 
 .BackGround{
@@ -32,6 +32,7 @@ body{
 .Character{
     position: absolute;
     z-index: 100;
+    transition: all 1s ease-in-out;
 }
 
 .ForeGround{
@@ -46,5 +47,5 @@ body{
 #mainCharacter{
     top: 160px;
     left: 392px;
-    transition: all 1 ease-in-out;
+    
 }

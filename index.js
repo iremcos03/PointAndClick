@@ -1,16 +1,15 @@
-document.getElementById("Main").innerText = "Point And Click Adventure";
+document.getElementById("MainTitle").innerText = "Point And Click Adventure";
 
 const offcetCharacter = 16;
 
-const mainCharachter = document .getElementById("mainCharachter")
+const mainCharacter = document .getElementById("mainCharacter")
 const GameWindow = document .getElementById("GameWindow")
 
-GameWindow.onClick = function (e){
-    var rect = GameWindow. getBoundingClientRect{};
-    var x = e.Clientx - rest.left;
-    var y = e.Clienty - rest.top
-    mainCharachter.style.left = x + "px"';
-    mainCharachter.style.top = y + "px";
-
+GameWindow.onclick = function (e){
+    var rect = GameWindow. getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top
+    mainCharacter.style.left = x - offcetCharacter+ "px";
+    mainCharacter.style.top = y  - offcetCharacter +"px";
 
 }
